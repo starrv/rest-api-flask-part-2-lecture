@@ -10,7 +10,7 @@ fake = Faker()
 
 with app.app_context():   
     Production.query.delete()
-    CrewMember.query.delete()
+    CastMember.query.delete()
 
     productions = []
  
